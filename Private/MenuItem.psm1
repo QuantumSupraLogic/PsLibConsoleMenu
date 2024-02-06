@@ -1,3 +1,5 @@
+Set-StrictMode -Version 3.0
+
 class MenuItem {
     [system.Guid] $id
     [string] $description

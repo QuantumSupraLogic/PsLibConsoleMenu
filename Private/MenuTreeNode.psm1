@@ -1,6 +1,8 @@
 using namespace System.Collections.Generic
 using module .\MenuItem.psm1
 
+Set-StrictMode -Version 3.0
+
 class MenuTreeNode:System.Collections.Generic.List[MenuItem] {
     hidden [MenuItem] $MenuItem
     hidden [List[MenuTreeNode]] $Children 
